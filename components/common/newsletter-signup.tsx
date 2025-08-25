@@ -63,7 +63,7 @@ export function NewsletterSignup() {
           placeholder="Enter your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="pl-10"
+          className="pl-10 text-gray-900"
           disabled={isLoading}
         />
       </div>
